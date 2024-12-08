@@ -248,7 +248,7 @@ public class Calculator extends JFrame {
     }
 
     private void prepareFram() {
-        this.setSize(350, 300);
+        this.setSize(450, 400);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setLocationRelativeTo(null);
     }
