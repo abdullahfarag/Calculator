@@ -55,11 +55,11 @@ public class Calculator extends JFrame {
     }
 
     private void calculations() {
-        // if (operations.equals("+")) {
-        //     result = result
-        //             + Double.valueOf(label.getText()).doubleValue();
-        //     label.setText(String.valueOf(result));
-        // }
+        if (operations.equals("+")) {
+            result = result
+                    + Double.valueOf(label.getText()).doubleValue();
+            label.setText(String.valueOf(result));
+        }
         if (operations.equals("-")) {
             result = result
                     - Double.valueOf(label.getText()).doubleValue();
